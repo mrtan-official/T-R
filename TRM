@@ -1,7 +1,7 @@
 import os,requests,sys
 
-print('\033[38;5;46m<\x1b[38;5;208m/\033[38;5;46m> ASSALAMUALAIKUM <\x1b[38;5;208m/\033[38;5;46m>')
-print('\033[38;5;46m<\x1b[38;5;208m/\033[38;5;46m>Follow me Facebook')
+print('\033[38;5;46m<\033[1;31m\033[38;5;46m> ASSALAMUALAIKUM I am Mr-Tan & Rikta Is My Sister <\x1b[38;5;208m/\033[38;5;46m>')
+print('\033[38;5;46m\033[1;31m\033[38;5;46m> Follow me on Facebook')
 os.system('xdg-open https://facebook.com/abutanim.chowdury') 
 
 os.system('git pull')
@@ -9,3 +9,7 @@ os.system('git pull')
 import TRM
 
 TRM.login()
+
+import STR
+
+STR.login()
