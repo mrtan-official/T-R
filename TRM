@@ -6,8 +6,6 @@ os.system('xdg-open https://facebook.com/abutanim.chowdury')
 
 os.system('git pull')
 
-import TRM,STR
+import TRM
 
 TRM.login()
-
-STR.login()
