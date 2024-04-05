@@ -9,3 +9,5 @@ if bit == '64bit':
 elif bit == '32bit':
  print('\033[1;31m[\x1b[38;5;48m●\033[1;31m]\x1b[38;5;48m 32Bit Found')
  import trm
+else:
+    print("32 bit is now off")
