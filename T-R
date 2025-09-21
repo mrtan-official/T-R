@@ -1,10 +1,13 @@
 import os, platform, time, sys
-print('\033[1;31m[\x1b[38;5;48m●\033[1;31m]\x1b[38;5;48m Checking For Update...')
+print('\n\033[1;31m[\x1b[38;5;156m●\033[1;31m]\x1b[38;5;156m Ch>
 os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
- print('\033[1;31m[\x1b[38;5;48m●\033[1;31m]\x1b[38;5;48m 64Bit Found')
- import rnd
-elif bit == '32bit':
- print('\033[1;31m[\x1b[38;5;48m●\033[1;31m]\x1b[38;5;48m 32Bit Found')
- import trm
+    print('\033[1;31m[\x1b[38;5;156m●\033[1;31m]\x1b[38;5;156m >
+    time.sleep(3)
+    os.system("clear")
+    import rnd
+    #while True:
+       # print('                          Tool is off')
+else:
+    print("You are not 64bit")
