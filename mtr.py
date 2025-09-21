@@ -3,7 +3,7 @@ print('\n\033[1;31m[\x1b[38;5;156m●\033[1;31m]\x1b[38;5;156m Ch>
 os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
-    print('\033[1;31m[\x1b[38;5;156m●\033[1;31m]\x1b[38;5;156m >
+    print('\033[1;31m[\x1b[38;5;156m●\033[1;31m]\x1b[38;5;156m 64bit User')
     time.sleep(3)
     os.system("clear")
     import rnd
